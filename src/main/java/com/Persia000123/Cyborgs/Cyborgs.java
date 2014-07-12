@@ -1,15 +1,21 @@
 package com.Persia000123.Cyborgs;
 
+import com.Persia000123.Cyborgs.proxy.IProxy;
+import com.Persia000123.Cyborgs.reference.Reference;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid="Cyborgs", name="Cyborgs", version="1.7.10-Dev0.1")
+@Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION)
 public class Cyborgs
 {
-    @Mod.Instance("Cybrogs")
+    @Mod.Instance(Reference.MOD_ID)
     public static Cyborgs instancel;
+
+    @SidedProxy(clientSide = "com.Persia000123.Cyborgs.proxy.ClientProxy", serverSide = "com.Persia000123.Cyborgs.proxy.ServerProxy")
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
