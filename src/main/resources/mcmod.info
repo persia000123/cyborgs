@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Cyborgs",
+  "name": "Cyborgs",
+  "description": "Cyborgs will rule the world",
+  "version": "Dev0.1",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "persia000123"
+  ],
+  "credits": "To pahimar for help with the Lets mod Reboot",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
