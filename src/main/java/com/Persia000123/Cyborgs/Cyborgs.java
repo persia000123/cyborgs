@@ -14,7 +14,7 @@ public class Cyborgs
     @Mod.Instance(Reference.MOD_ID)
     public static Cyborgs instancel;
 
-    @SidedProxy(clientSide = "com.Persia000123.Cyborgs.proxy.ClientProxy", serverSide = "com.Persia000123.Cyborgs.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler
