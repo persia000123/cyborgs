@@ -1,6 +1,6 @@
 package com.Persia000123.Cyborgs;
 
-import com.Persia000123.Cyborgs.configuration.ConfigurationHandler;
+import com.Persia000123.Cyborgs.handler.ConfigurationHandler;
 import com.Persia000123.Cyborgs.proxy.IProxy;
 import com.Persia000123.Cyborgs.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -9,7 +9,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION)
+@Mod(modid= Reference.MOD_ID, name= Reference.MOD_NAME, version= Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class Cyborgs
 {
     @Mod.Instance(Reference.MOD_ID)
