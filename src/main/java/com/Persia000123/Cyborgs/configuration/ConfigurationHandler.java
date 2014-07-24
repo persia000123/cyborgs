@@ -1,4 +1,4 @@
-package com.Persia000123.Cyborgs.proxy.configuration;
+package com.Persia000123.Cyborgs.configuration;
 
 import net.minecraftforge.common.config.Configuration;
 
@@ -6,9 +6,12 @@ import java.io.File;
 
 public class ConfigurationHandler
 {
+
+    public static Configuration configuration;
+
     public static void init(File configFile)
     {
-        Configuration configuration = new Configuration(configFile);
+        configuration = new Configuration(configFile);
         boolean configValue = false;
         try
         {
@@ -22,8 +25,10 @@ public class ConfigurationHandler
         }
         finally
         {
-            configuration.save();
+            if (configuration.hasChanged())
+            {
+                configuration.save();
+            }
         }
-        System.out.println(configValue);
     }
 }

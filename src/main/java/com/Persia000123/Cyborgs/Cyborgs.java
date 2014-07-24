@@ -1,7 +1,7 @@
 package com.Persia000123.Cyborgs;
 
+import com.Persia000123.Cyborgs.configuration.ConfigurationHandler;
 import com.Persia000123.Cyborgs.proxy.IProxy;
-import com.Persia000123.Cyborgs.proxy.configuration.ConfigurationHandler;
 import com.Persia000123.Cyborgs.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
