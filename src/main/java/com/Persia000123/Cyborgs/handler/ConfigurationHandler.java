@@ -18,6 +18,7 @@ public class ConfigurationHandler
         if (configuration == null)
         {
             configuration = new Configuration(configFile);
+            lodeConfiguration();
         }
     }
 
@@ -30,7 +31,7 @@ public class ConfigurationHandler
         }
     }
 
-    public void lodeConfiguration()
+    private static void lodeConfiguration()
     {
         testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example Configuration value");
 
