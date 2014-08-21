@@ -1,6 +1,7 @@
 package com.Persia000123.Cyborgs;
 
 import com.Persia000123.Cyborgs.handler.ConfigurationHandler;
+import com.Persia000123.Cyborgs.init.ModBlocks;
 import com.Persia000123.Cyborgs.init.ModItems;
 import com.Persia000123.Cyborgs.proxy.IProxy;
 import com.Persia000123.Cyborgs.reference.Reference;
@@ -29,6 +30,8 @@ public class Cyborgs
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

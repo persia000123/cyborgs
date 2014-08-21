@@ -1,1 +1,7 @@
 item.cyborgs:artificialSkin.name=Artificial Skin
+item.cyborgs:silicon.name=Silicon
+item.cyborgs:purifiedsilicon.name=Purified Silicon
+tile.cyborgs:purifier.name=Purifier
+tile.cyborgs:assembler.name=Assembler
+tile.cyborgs:kyaniteore.name=Kyanite Ore
+tile.cyborgs:separator.name=Separator
