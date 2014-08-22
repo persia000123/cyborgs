@@ -1,5 +1,6 @@
 package com.Persia000123.Cyborgs.item;
 
+import com.Persia000123.Cyborgs.creativetab.CreativeTabCyborgs;
 import com.Persia000123.Cyborgs.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemCyborgs extends Item
     public ItemCyborgs()
     {
         super();
+        this.setCreativeTab(CreativeTabCyborgs.Cyborgs_Tab);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.Persia000123.Cyborgs.block;
 
+import com.Persia000123.Cyborgs.creativetab.CreativeTabCyborgs;
 import com.Persia000123.Cyborgs.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class BlockCyborgs extends Block
     public BlockCyborgs(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabCyborgs.Cyborgs_Tab);
     }
 
     public BlockCyborgs()

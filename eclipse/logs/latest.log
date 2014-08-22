@@ -1,8 +1,8 @@
-[22:13:01] [main/INFO]: Setting user: ForgeDevName
-[22:13:02] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:13:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cyborgs
-[22:13:08] [Sound Library Loader/INFO]: Sound engine started
-[22:13:09] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/separator.png
+[16:35:15] [main/INFO]: Setting user: ForgeDevName
+[16:35:16] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:35:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cyborgs
+[16:35:22] [Sound Library Loader/INFO]: Sound engine started
+[16:35:23] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/separator.png
 java.io.FileNotFoundException: cyborgs:textures/blocks/separator.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -32,7 +32,7 @@ java.io.FileNotFoundException: cyborgs:textures/blocks/separator.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_60]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_60]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:13:09] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/assembler.png
+[16:35:23] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/assembler.png
 java.io.FileNotFoundException: cyborgs:textures/blocks/assembler.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -62,11 +62,11 @@ java.io.FileNotFoundException: cyborgs:textures/blocks/assembler.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_60]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_60]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:13:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:13:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:13:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cyborgs
-[22:13:10] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:13:10] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/separator.png
+[16:35:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:35:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:35:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cyborgs
+[16:35:24] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:35:24] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/separator.png
 java.io.FileNotFoundException: cyborgs:textures/blocks/separator.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -99,7 +99,7 @@ java.io.FileNotFoundException: cyborgs:textures/blocks/separator.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_60]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_60]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:13:10] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/assembler.png
+[16:35:24] [Client thread/ERROR]: Using missing texture, unable to load cyborgs:textures/blocks/assembler.png
 java.io.FileNotFoundException: cyborgs:textures/blocks/assembler.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -132,26 +132,22 @@ java.io.FileNotFoundException: cyborgs:textures/blocks/assembler.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_60]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_60]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[22:13:10] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:13:11] [Sound Library Loader/INFO]: Sound engine started
-[22:13:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:13:18] [Server thread/INFO]: Generating keypair
-[22:13:18] [Server thread/INFO]: Preparing start region for level 0
-[22:13:19] [Server thread/INFO]: Changing view distance to 12, from 10
-[22:13:19] [Server thread/INFO]: ForgeDevName[local:E:2fe029aa] logged in with entity id 202 at (-232.6943446029909, 4.0, 2175.5835591624113)
-[22:13:19] [Server thread/INFO]: ForgeDevName joined the game
-[22:13:20] [Server thread/INFO]: Saving and pausing game...
-[22:13:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:13:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:13:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:14:36] [Server thread/INFO]: Saving and pausing game...
-[22:14:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:14:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:14:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:14:37] [Server thread/INFO]: Stopping server
-[22:14:37] [Server thread/INFO]: Saving players
-[22:14:37] [Server thread/INFO]: Saving worlds
-[22:14:37] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:14:37] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:14:37] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:14:38] [Client thread/INFO]: Stopping!
+[16:35:24] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:35:25] [Sound Library Loader/INFO]: Sound engine started
+[16:35:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:35:30] [Server thread/INFO]: Generating keypair
+[16:35:30] [Server thread/INFO]: Preparing start region for level 0
+[16:35:31] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:35:31] [Server thread/INFO]: ForgeDevName[local:E:853ddc89] logged in with entity id 181 at (-234.42765924447082, 4.0, 2171.719262879069)
+[16:35:31] [Server thread/INFO]: ForgeDevName joined the game
+[16:35:38] [Server thread/INFO]: Saving and pausing game...
+[16:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:35:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:35:39] [Client thread/INFO]: Stopping!
+[16:35:39] [Server thread/INFO]: Stopping server
+[16:35:39] [Server thread/INFO]: Saving players
+[16:35:39] [Server thread/INFO]: Saving worlds
+[16:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:35:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
