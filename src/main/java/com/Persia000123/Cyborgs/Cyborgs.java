@@ -3,6 +3,7 @@ package com.Persia000123.Cyborgs;
 import com.Persia000123.Cyborgs.handler.ConfigurationHandler;
 import com.Persia000123.Cyborgs.init.ModBlocks;
 import com.Persia000123.Cyborgs.init.ModItems;
+import com.Persia000123.Cyborgs.init.Recipes;
 import com.Persia000123.Cyborgs.proxy.IProxy;
 import com.Persia000123.Cyborgs.reference.Reference;
 import com.Persia000123.Cyborgs.utility.LogHelper;
@@ -37,6 +38,7 @@ public class Cyborgs
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 
