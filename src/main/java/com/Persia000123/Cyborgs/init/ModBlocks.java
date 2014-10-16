@@ -11,6 +11,7 @@ public class ModBlocks
     public static final BlockAssembler assembler = new BlockAssembler();
     public static final BlockKyaniteOre kyaniteore = new BlockKyaniteOre();
     public static final BlockSeparator separator = new BlockSeparator();
+    public static final BlockKyaniteBlock kyaniteblock = new BlockKyaniteBlock();
 
     public static void init()
     {
@@ -18,6 +19,7 @@ public class ModBlocks
         GameRegistry.registerBlock(assembler, "assembler");
         GameRegistry.registerBlock(kyaniteore, "kyaniteore");
         GameRegistry.registerBlock(separator, "separator");
+        GameRegistry.registerBlock(kyaniteblock, "kyaniteblock");
     }
 }
 
