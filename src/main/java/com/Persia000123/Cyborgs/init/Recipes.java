@@ -7,6 +7,6 @@ public class Recipes
 {
     public static void init()
     {
-        //GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.kyaniteblock)," ss", " ss", "   ", "s", new ItemStack(ModItems.kyanite));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.kyaniteblock), "ss", "ss", 's', new ItemStack(ModItems.kyanite));
     }
 }

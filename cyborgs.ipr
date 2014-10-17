@@ -173,6 +173,10 @@
     <dictionary name="Matthew">
       <words>
         <w>cybogs</w>
+        <w>kyanite</w>
+        <w>kyaniteblock</w>
+        <w>kyaniteore</w>
+        <w>purifiedsilicon</w>
       </words>
     </dictionary>
   </component>
