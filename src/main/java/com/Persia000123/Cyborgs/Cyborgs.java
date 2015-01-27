@@ -7,6 +7,7 @@ import com.Persia000123.Cyborgs.init.Recipes;
 import com.Persia000123.Cyborgs.proxy.IProxy;
 import com.Persia000123.Cyborgs.reference.Reference;
 import com.Persia000123.Cyborgs.utility.LogHelper;
+import com.Persia000123.Cyborgs.world.entity.CyborgsEntity;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -33,6 +34,8 @@ public class Cyborgs
         ModItems.init();
 
         ModBlocks.init();
+
+        CyborgsEntity.inti();
     }
 
     @Mod.EventHandler
