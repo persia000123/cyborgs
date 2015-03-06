@@ -12,6 +12,7 @@ public class EntityCyborgsMod extends EntityMob
     public EntityCyborgsMod(World par1World)
     {
         super(par1World);
+        this.setSize(0.9f, 1.9f);
         this.tasks.addTask(0, new EntityAISwimming(this));
         this.tasks.addTask(2, new EntityAIAttackOnCollide(this, EntityPlayer.class, 1.0D, false));
         this.tasks.addTask(7, new EntityAIWander(this, 1.0D));
