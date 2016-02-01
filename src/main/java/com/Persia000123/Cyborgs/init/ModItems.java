@@ -11,6 +11,7 @@ public class ModItems
     public static final ItemSilicon silicon = new ItemSilicon();
     public static final ItemPurifiedSilicon purifiedsilicon= new ItemPurifiedSilicon();
     public static final ItemKyanite kyanite= new ItemKyanite();
+    public static final ItemBlinkDrive blinkdrive= new ItemBlinkDrive();
 
     public static void init()
     {
@@ -18,6 +19,7 @@ public class ModItems
         GameRegistry.registerItem(silicon, "silicon");
         GameRegistry.registerItem(purifiedsilicon, "purifiedsilicon");
         GameRegistry.registerItem(kyanite, "kyanite");
+        GameRegistry.registerItem(blinkdrive, "blinkdriv");
 
     }
 }

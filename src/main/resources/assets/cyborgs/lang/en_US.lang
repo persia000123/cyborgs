@@ -3,6 +3,7 @@ item.cyborgs:artificialSkin.name=Artificial Skin
 item.cyborgs:silicon.name=Silicon
 item.cyborgs:purifiedsilicon.name=Purified Silicon
 item.cyborgs:kyanite.name=Kyanite
+item.cyborgs:blinkdrive.name=Blink Drive
 
 tile.cyborgs:purifier.name=Purifier
 tile.cyborgs:assembler.name=Assembler
